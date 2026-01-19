@@ -1,7 +1,7 @@
 import React from "react";
-import { FaClock, FaEnvelope, FaMapMarkerAlt } from "react-icons/fa";
+import { FaClock, FaEnvelope, FaMapMarkerAlt,FaPhoneAlt } from "react-icons/fa";
 import ContactImg from "../assets/Contact.png"
-import Image5 from "../assets/image5.jpg"
+import Image5 from "../assets/images 5.jpg"
 
 const Contact = () => {
   const constactItems = [
@@ -201,7 +201,15 @@ const Contact = () => {
             </section>
         </main>
         <figure data-aos='fade-up' data-aos-delay="600" className="mt-16 bg-white rounded-2xl shadow-xl overflow-hidden ">
-            <iframe src={Image5} frameborder="0"></iframe>
+            <iframe src={Image5} frameborder="0"
+            width="100%"
+            height="450"
+            style={{border:0}}
+            allowFullScreen=""
+            loading="lazy"
+            title="Cosmtic Item Aria"
+            className="rounded-2xl"
+            aria-label="CosmeticLoaction"></iframe>
         </figure>
       </div>
     </article>

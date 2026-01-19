@@ -6,7 +6,7 @@ import Hero from "./Component/Hero.jsx";
 import Services from "./Component/Services.jsx";
 import About from "./Component/About.jsx";
 import Specialist from "./Component/Specialist.jsx";
-
+import Contact from "./Component/Contact.jsx";
 const App = () => {
   useEffect(() => {
     Aos.init({
@@ -20,6 +20,7 @@ const App = () => {
       <Services/>
       <About/>
       <Specialist/>
+      <Contact/>
     </div>
   );
 };
