@@ -9,7 +9,7 @@ const Hero = () => {
         {value:"10+",label:"Years of Experinece"}
     ];
   return (
-    <section id='home ' className='relative overflow-hidden bg-gradient-to-r from-pink-100 to-purple-100 '>
+    <section id='#' className='relative overflow-hidden bg-gradient-to-r from-pink-100 to-purple-100 '>
         <article className='container mx-auto px-4 py-20 md:py-32 flex flex-col md:flex-row item'>
             <div className='md:w-1/2 mb-10 md:mb-0'>
              <hgroup data-aos ="fade-up" data-aos-delay='600'>

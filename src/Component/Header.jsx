@@ -20,7 +20,7 @@ const Header = () => {
       <div className="container mx-auto px-4 py-4 flex justify-between items-center">
         {/* Logo */}
         <a
-          href="/"
+          href="/home"
           className="flex items-center focus:outline-none focus:ring-2 focus:ring-pink-600 rounded"
         >
           <h1 className="text-2xl font-bold text-pink-600">Cosmetic</h1>

@@ -48,7 +48,7 @@ const Specialist = () => {
 
   return (
     <section
-      id="specialists"
+      id="specialist"
       className="py-20 overflow-hidden bg-gradient-to-r from-pink-100 to-purple-100"
     >
       <div className="container mx-auto px-4">
