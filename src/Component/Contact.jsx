@@ -57,15 +57,16 @@ const Contact = () => {
       title: "Working Hours",
       content: (
         <p className="text-gray-600">
-          Sunday - Friday:9.00 AM -9.00 PM
+          Sunday - Friday : 9.00 AM -9.00 PM
           <br />
           Saturday : 9.00 AM -10.00 PM <br />
+          Sunday : Closed<br/>
           All PoyaDays Closed
         </p>
       ),
     },
   ];
-  const services = [
+  const service = [
     { value: "botox", label: "Botox Treatments" },
     { value: "filters", label: "Dermal Fillers" },
     { value: "laser", label: "Laser Theraphy" },
@@ -188,7 +189,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <label
-                    htmlFor=""
+                    htmlFor="service"
                     className="block text-gray-700 font-medium mb-2"
                   >
                     Service Interested In
@@ -203,11 +204,11 @@ const Contact = () => {
                     required
                   >
                     <option value="">Select Service</option>
-                    {services.map((services) => {
-                      <option key={services.value} value={services.value}>
-                        {services.label}
-                      </option>;
-                    })}
+                    {service.map((service) => (
+                      <option key={service.value} value={service.value}>
+                        {service.label}
+                      </option>
+                    ))}
                   </select>
                 </div>
                 <div>
